@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.mid{
+    margin-left: 2vh;
+    margin-top: 0vh;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    font-weight: 10000;
+    padding-top: 10vh;
+}
+
+#head{
+    height: 20vh;
+    background-color: linear-gradient(to bottom right blue, white, black);
+}
+
+.para{
+    padding-left: 5vh;
+}
