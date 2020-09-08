@@ -1,6 +1,7 @@
 body{
     margin: 0;
     height: 100vh;
+    background-color: #f9f3f1;
 }
 
 .mid{
@@ -8,8 +9,17 @@ body{
     margin-top: 0vh;
 }
 
+a{
+    color: #9593ce;
+    background-color: #f9f3f1;
+    font-weight: bolder;
+    font-size: 3vh;
+    text-decoration: none;
+}
+
 a:hover{
-    background-color: aqua;
+    color: #f9f3f1;
+    background-color: #9593ce;
 }
 
 h1{
@@ -18,11 +28,27 @@ h1{
     padding-top: 10vh;
 }
 
-#head{
-    height: 20vh;
-    background-color: linear-gradient(to bottom right blue, white, black);
+.head{
+    height: 25vh;
+    background-image: linear-gradient(#6365b1, #f9f3f1);
+    color: white;
+
+}
+
+.nav{
+    
 }
 
 .para{
     padding-left: 5vh;
+}
+
+/* .test{
+    /* background-image: linear-gradient(to bottom right, #f9f3f1, #9593ce); */
+    background-image: linear-gradient(to bottom right, #404191, #9593ce);
+    height: 100vh;
+} */
+
+.bar{
+    align: center;
 }
