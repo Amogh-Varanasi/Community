@@ -52,3 +52,15 @@ h1{
 .bar{
     align: center;
 }
+
+table{
+    border: 1px solid #f9f3f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr, th{
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
