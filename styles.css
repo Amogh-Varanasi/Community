@@ -20,13 +20,18 @@ body{
 }
 
 #topr{
-    margin-left: 114.144vh;
+    margin-left: 116.144vh;
     margin-top: 1vh;
     width: 23.8554vh;
 }
 
 #bottoml{
     margin-top: 17vh;
+}
+
+#bottomr{
+    margin-top: 17vh;
+    margin-left: 116.144vh;
 }
 
 a.ch{
