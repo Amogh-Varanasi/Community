@@ -1,10 +1,11 @@
 /* ADD FONTS FOR PAGES */
 .homelink{
-    box-shadow:gray;
+    transition: transform .2s;
+    height: 30vh;
 }
 
 .homelink:hover{
-    box-shadow: #f9f3f1;
+    transform: scale(1.1);    
 }
 
 body{
@@ -15,10 +16,20 @@ body{
 
 #topl{
     margin-left: 2vh;
-    margin-top: 0vh;
+    margin-top: 1vh;
 }
 
-a{
+#topr{
+    margin-left: 114.144vh;
+    margin-top: 1vh;
+    width: 23.8554vh;
+}
+
+#bottoml{
+    margin-top: 17vh;
+}
+
+a.ch{
     color: #9593ce;
     background-color: #f9f3f1;
     font-weight: bolder;
@@ -26,7 +37,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+a.ch:hover{
     color: #f9f3f1;
     background-color: #9593ce;
 }
@@ -42,15 +53,16 @@ h1{
     background-image: linear-gradient(#6365b1, #f9f3f1);
     color: white;
     font-size: 1.8vh;
-    border-style: dashed;
+    border-style: double;
+    border-bottom-width: 0.5vh;
     border-left-width: 0;
     border-right-width: 0;
     border-top-width: 0;
 }
 
-.nav{
+/* .nav{
     
-}
+} */
 
 .para{
     padding-left: 5vh;
@@ -58,13 +70,9 @@ h1{
 
 /* .test{
     /* background-image: linear-gradient(to bottom right, #f9f3f1, #9593ce); */
-    background-image: linear-gradient(to bottom right, #404191, #9593ce);
+    /* background-image: linear-gradient(to bottom right, #404191, #9593ce);
     height: 100vh;
 } */
-
-.bar{
-    align: center;
-}
 
 table{
     border: 1px solid #f9f3f1;
