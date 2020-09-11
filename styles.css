@@ -4,6 +4,8 @@
     height: 30vh;
 }
 
+/* I learned how to use vh when I asked for help in class */
+
 .homelink:hover{
     transform: scale(1.1);    
 }
@@ -15,23 +17,24 @@ body{
 }
 
 #topl{
-    margin-left: 2vh;
+    margin-left: 10vh;
     margin-top: 1vh;
 }
 
 #topr{
-    margin-left: 116.144vh;
+    margin-left: 96.144vh;
     margin-top: 1vh;
     width: 23.8554vh;
 }
 
 #bottoml{
-    margin-top: 17vh;
+    margin-top: 37vh;
+    margin-left: 10vh;
 }
 
 #bottomr{
-    margin-top: 17vh;
-    margin-left: 116.144vh;
+    margin-top: 37vh;
+    margin-left: 94.144vh;
 }
 
 a.ch{
@@ -65,19 +68,9 @@ h1{
     border-top-width: 0;
 }
 
-/* .nav{
-    
-} */
-
 .para{
     padding-left: 5vh;
 }
-
-/* .test{
-    /* background-image: linear-gradient(to bottom right, #f9f3f1, #9593ce); */
-    /* background-image: linear-gradient(to bottom right, #404191, #9593ce);
-    height: 100vh;
-} */
 
 table{
     border: 1px solid #f9f3f1;
@@ -115,3 +108,29 @@ td{
     padding-right: 15vh;
     padding-left: 10vh;
 }
+
+#brittaimg{
+    width: 65vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+#blanketsimg{
+    width: 65vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+#blanketsimg:hover{
+    display: none;
+}
+
+.pillowsimg:hover{
+    background-image: url(pillows.jpg);
+    width: 65vh;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    background-repeat: no-repeat;
+}
+
+/* I got the idea to make this work from stackoverflow at https://stackoverflow.com/questions/4815831/how-to-make-img-disappear-on-hover */
